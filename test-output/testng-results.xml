@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3532" started-at="2020-05-25T23:50:29 IST" finished-at="2020-05-25T23:50:33 IST">
+  <suite name="Suite" duration-ms="9807" started-at="2020-05-26T01:37:55 IST" finished-at="2020-05-26T01:38:05 IST">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.OpenWeatherRunner@161479c6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.OpenWeatherRunner@1fc0053e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="3532" started-at="2020-05-25T23:50:29 IST" finished-at="2020-05-25T23:50:33 IST">
+    <test name="Test" duration-ms="9807" started-at="2020-05-26T01:37:55 IST" finished-at="2020-05-26T01:38:05 IST">
       <class name="runner.OpenWeatherRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.OpenWeatherRunner@161479c6]" name="setUpClass" is-config="true" duration-ms="279" started-at="2020-05-25T23:50:29 IST" finished-at="2020-05-25T23:50:30 IST">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.OpenWeatherRunner@1fc0053e]" name="setUpClass" is-config="true" duration-ms="916" started-at="2020-05-26T01:37:55 IST" finished-at="2020-05-26T01:37:56 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.OpenWeatherRunner@161479c6]" name="runScenario" duration-ms="2670" started-at="2020-05-25T23:50:30 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-05-25T23:50:32 IST">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.OpenWeatherRunner@1fc0053e]" name="runScenario" duration-ms="7877" started-at="2020-05-26T01:37:56 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-05-26T01:38:04 IST">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.OpenWeatherRunner@161479c6]" name="runScenario" duration-ms="151" started-at="2020-05-25T23:50:32 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-05-25T23:50:33 IST">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.OpenWeatherRunner@1fc0053e]" name="runScenario" duration-ms="185" started-at="2020-05-26T01:38:04 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-05-26T01:38:04 IST">
           <params>
             <param index="0">
               <value>
@@ -46,7 +46,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.OpenWeatherRunner@161479c6]" name="runScenario" duration-ms="159" started-at="2020-05-25T23:50:33 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-05-25T23:50:33 IST">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.OpenWeatherRunner@1fc0053e]" name="runScenario" duration-ms="171" started-at="2020-05-26T01:38:04 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-05-26T01:38:04 IST">
           <params>
             <param index="0">
               <value>
@@ -62,7 +62,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.OpenWeatherRunner@161479c6]" name="runScenario" duration-ms="142" started-at="2020-05-25T23:50:33 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-05-25T23:50:33 IST">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.OpenWeatherRunner@1fc0053e]" name="runScenario" duration-ms="176" started-at="2020-05-26T01:38:04 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-05-26T01:38:05 IST">
           <params>
             <param index="0">
               <value>
@@ -78,11 +78,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.OpenWeatherRunner@161479c6]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2020-05-25T23:50:33 IST" finished-at="2020-05-25T23:50:33 IST">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.OpenWeatherRunner@1fc0053e]" name="tearDownClass" is-config="true" duration-ms="2" started-at="2020-05-26T01:38:05 IST" finished-at="2020-05-26T01:38:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- runner.OpenWeatherRunner -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
